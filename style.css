@@ -1,0 +1,110 @@
+* {
+    padding: 14px;
+    margin: 40px;
+    box-sizing: border-box;
+
+}
+
+
+button {
+    cursor: pointer;
+    background-color: #5fbbaf;
+    color: #ffffff;
+    border: none;
+    padding: 0px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    height: 48px;
+    transition: 0.3s;
+}
+/* button:hover {
+    background-color: #aeccc7;
+} */
+
+
+body {
+    background-color: #356097;
+    padding: 0px 0px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: rgb(32, 26, 119);
+}
+
+.quiz-container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.question{
+    font-size: 35px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+.quiz-container2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    
+}
+.controls {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.button:not(:disabled):hover {
+    filter: brightness(1.9);
+}
+
+.answers:disabled{
+    cursor: not-allowed };
+
+.proxima-pergunta {
+    margin-top: 32px;
+}
+
+.hide {
+    display: none;
+    align-items: center;
+}
+
+.correct {
+    background-color: #4caf50;
+}   
+
+.wrong {
+    background-color: #f44336;
+}
+
+questionConteiner {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+.final {
+    font-size: 35px;
+    font-weight: 200;
+    color: #ffffff;
+    margin: 5px;
+}
